@@ -1,4 +1,7 @@
-public class Mouse extends Animal implements Runnable, Swimmable {
+package animals;
+import interfaces.AnimalRunnable;
+import interfaces.Swimmable;
+public class Mouse extends Animal implements AnimalRunnable, Swimmable {
     private String name;
     private String color;
     public Mouse( String name, String color ) {

@@ -1,4 +1,6 @@
-public class Cat extends Animal implements Runnable, Swimmable {
+package animals;
+import interfaces.*;
+public class Cat extends Animal implements AnimalRunnable, Swimmable {
     private String name;
     private String breed;
     public Cat( String name, String breed ) {

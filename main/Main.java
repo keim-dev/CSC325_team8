@@ -1,15 +1,20 @@
+package main;
+
 import java.util.ArrayList;
 import java.util.List;
+import animals.*;
+import interfaces.*;
+
 
 public class Main {
     public static void main( String[] args ) {
         List<Animal> animals = new ArrayList<>();
         animals.add( new Dog( "Ollie", "Shih Tzu" ) );
-        animals.add( new Cat( "Tiger", "Calico" ) );
+        animals.add( new Cat( "Tigerlily", "Calico") );
         animals.add( new Mouse( "Mickey", "Black" ) );
         for ( Animal animal : animals ) {
             animal.makeSound();
-            if ( animal instanceof Runnable runnable ) {
+            if ( animal instanceof AnimalRunnable runnable ) {
                 runnable.run();
                 runnable.walk();
             }
