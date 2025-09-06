@@ -40,9 +40,7 @@
   - Looped through the list and called their methods dynamically.
   - Output each animal’s name, movement, and sound.
 
----
 
-## Next Steps
 - Add a second interface (e.g., `Climbable`, `Walkable`, or `Burrower`) and implement it in at least two subclasses.
 - Update `Main.java` to demonstrate the new methods and behaviors.
 - Continue tracking progress in this file.
