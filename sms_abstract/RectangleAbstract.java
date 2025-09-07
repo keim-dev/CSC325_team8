@@ -1,4 +1,10 @@
-package sms_abstract;;
+/* JavaDoc:
+    * This class represents a rectangle, extending the abstract ShapeAbstract class.
+    * It includes properties for height and width, and provides implementations
+    * for calculating area, drawing the rectangle, and describing it.
+    *
+*/
+package sms_abstract;
 public class RectangleAbstract extends ShapeAbstract {
     private double height;
     private double width;
