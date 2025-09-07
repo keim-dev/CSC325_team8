@@ -2,7 +2,17 @@ import java.util.Scanner;
 import sms_abstract.*;
 import sms_interface.*;
 
+/**
+ * MAIN class to test shape classes implemented using both abstraction and interfaces.
+ * Provides a menu for the user to select which design to test.
+ */
 public class MAIN {
+
+    /**
+     * Tests the abstract class implementations of shapes.
+     * Creates RectangleAbstract, CircleAbstract, and TriangleAbstract objects,
+     * calls their draw, describe, and area methods, and prints the results.
+     */
     public void testAbstracts() {
 
         System.out.println( "Testing Abstract Classes:" );
@@ -20,10 +30,13 @@ public class MAIN {
         tri.draw();
         tri.describe();
         System.out.println( "Area: " + tri.area() );
-        
-
     }
 
+    /**
+     * Tests the interface-based implementations of shapes.
+     * Creates Rectangle_i, Circle_i, and Triangle_i objects,
+     * calls their draw, describe, and area methods, and prints the results.
+     */
     public void testInterfaces() {
 
         System.out.println( "Testing Interface Classes:" );
@@ -41,9 +54,13 @@ public class MAIN {
         tri2.draw();
         tri2.describe();
         System.out.println( "Area: " + tri2.area() );
-
     }
 
+    /**
+     * Main method. Prompts the user to select which design to test (abstraction, interface, or both).
+     * Calls the appropriate test methods based on user input.
+     * @param args Command-line arguments (not used)
+     */
     public static void main( String[] args ) {
         MAIN run = new MAIN();
         Scanner scnr = new Scanner( System.in );
