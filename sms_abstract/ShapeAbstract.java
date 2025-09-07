@@ -1,21 +1,8 @@
 /* JavaDoc:
-    - make 3 interfaces to mimic methods in shape
-      - Area
-      - Draw
-      - Describe
-    - implement interfaces in concrete classes
-
-    - make a main class to test all
-
-    write reflection:
-      -what worked better
-      - what was more reusable
-      - which design is more scalable
-      - which would you use in future projects and why
-      - any ai prompts used
-      - general ai use
-      - ai critique
-
+  * This is an abstract class representing a geometric shape.
+  * It contains common properties like color and name, and declares
+  * abstract methods for calculating area, drawing the shape, and describing it.
+  *
 */
 package sms_abstract;
 public abstract class ShapeAbstract {
