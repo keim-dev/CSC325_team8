@@ -1,5 +1,10 @@
+/* JavaDoc:
+    * This class represents a circle, extending the abstract ShapeAbstract class.
+    * It includes a property for radius and provides implementations
+    * for calculating area, drawing the circle, and describing it.
+    *
+*/
 package sms_abstract;
-import java.lang.Math;
 public class CircleAbstract extends ShapeAbstract {
     private double radius;
     public CircleAbstract( String c, String n, double r) {

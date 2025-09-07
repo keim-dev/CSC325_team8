@@ -1,3 +1,9 @@
+/* JavaDoc:
+    * This class represents a triangle, extending the abstract ShapeAbstract class.
+    * It includes properties for height and base, and provides implementations
+    * for calculating area, drawing the triangle, and describing it.
+    *
+*/
 package sms_abstract;
 public class TriangleAbstract extends ShapeAbstract{
     private double height;
