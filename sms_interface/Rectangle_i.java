@@ -1,5 +1,5 @@
 package sms_interface;
-public class Rectnagle_i implements Calculable, Drawable, Describable {
+public class Rectangle_i implements Calculable, Drawable, Describable {
     private String color;
     private String name;
     private double width;
