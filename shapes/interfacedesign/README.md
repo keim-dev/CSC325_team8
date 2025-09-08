@@ -1,14 +1,16 @@
-# Shape Management System
+How to run:
+Abstract Class Version:
+1. Open terminal in the src folder.
+2. Compile files: javac shapes/abstractdesign/*.java
+3. Run program: java shapes.abstractdesign.Main
 
-This project demonstrates two approaches to designing a shape management system in Java:
-1. Using **abstract classes**.
-2. Using **interfaces**.
+Interface Version:
+1. Open terminal in the src folder.
+2. Compile files: javac shapes/interfacedesign/*.java
+3. Run program: java shapes.interfacedesign.Main
 
-## Abstract Class Design
-The abstract class design uses a base class `Shape` with shared fields (`color`, `name`) and abstract methods (`getArea()`, `draw()`, `describe()`). Subclasses (`Circle`, `Rectangle`, `Triangle`) inherit from `Shape` and provide their own implementations.
+Why this matters:
+- Abstract classes let you share code between shapes. Good when shapes are similar.  
+- Interfaces let shapes have different abilities without forcing a hierarchy. Good for flexibility.  
 
-### How to Compile and Run
-1. Navigate to the `shapes/abstractdesign` directory.
-2. Compile the code:
-   ```bash
-   javac shapes/abstractdesign/*.java
+Comparing them helps you decide which design is easier to use, read, and change in real programs.
