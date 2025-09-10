@@ -75,13 +75,13 @@ public class MAIN {
             else if ( choice.equalsIgnoreCase( "I" ) ) {
                 run.testInterfaces();
             }
-            else if ( choice.equalsIgnoreCase(choice) ) {
+            else if ( choice.equalsIgnoreCase( "B") ) {
                 run.testAbstracts();
                 System.out.println( " ********** ");
                 run.testInterfaces();
             }
             else {
-                System.out.println( "Invalid choice. Please enter 'A' for Abstraction or 'I' for Interface." );
+                System.out.println( "Invalid choice. Please enter 'A' for Abstraction or 'I' for Interface or 'B' for Both." );
             }
         }
         System.out.println( "End Test." );
